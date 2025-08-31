@@ -1,0 +1,13 @@
+{
+  "name": "untitled-folder",
+  "version": "1.0.0",
+  "description": "A basic Node.js project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "npx serve -l 3000 ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
