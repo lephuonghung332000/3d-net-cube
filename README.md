@@ -14,10 +14,14 @@ A simple Three.js + AR.js project: 3D cube with unfold/fold animation, marker-ba
 - **VS Code** (optional, for editing/viewing code): https://code.visualstudio.com/ (choose Windows, just click Next until finish)
 - **Git** (optional, for cloning repo): https://git-scm.com/ (choose Windows, just click Next until finish)
 
-### 1. Download the Project
-- The project owner will send you a ZIP file (via Google Drive, Zalo, etc.)
-- Download the ZIP file, right-click and select "Extract All..." to unzip to a folder (e.g. Desktop)
-- Open the extracted folder in VS Code (right-click > "Open with Code" or open VS Code then File > Open Folder)
+### 1. Clone the Project using Git
+- Open a terminal or command prompt in the folder where you want to save the project (e.g. Desktop)
+- Type:
+```bash
+git clone <paste-the-http-link-you-copied-from-GitHub>
+```
+- Copy the HTTP link from the green "Code" button on the GitHub page of this project and paste it after `git clone` above.
+- Open the cloned folder in VS Code (right-click > "Open with Code" or open VS Code then File > Open Folder)
 
 ### 2. Install Dependencies
 - Right-click inside the folder and choose "Open in Terminal" or "Open PowerShell window here"
