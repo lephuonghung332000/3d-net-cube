@@ -201,9 +201,9 @@ function init() {
       if (done === total) {
         animatePivotTo(pivots[5], "rotation.x", Math.PI / 2, 60, () => {
           // Detach top from back if needed
-          if (pivots[5].parent !== scene) {
-            pivots[1].remove(pivots[5]);
-            scene.add(pivots[5]);
+          if (pivots[5].parent !== markerRoot) {
+            if (pivots[5].parent) pivots[5].parent.remove(pivots[5]);
+            markerRoot.add(pivots[5]);
           }
           pivots[5].rotation.set(Math.PI / 2, 0, 0);
           pivots[5].position.set(0, 1, 0);
